@@ -23,7 +23,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "a4d0a4ba2714b7e36f6cd3492892a225e62052df",
+  "gitHead": "8bdbde1b807760969cef4b2e5faf5767ba6bf50e",
   "dependencies": {
     "lodash": "^4.17.21"
   }
