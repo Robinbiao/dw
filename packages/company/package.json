@@ -1,0 +1,32 @@
+{
+  "name": "@dworld/company",
+  "version": "0.0.0",
+  "description": "vue company",
+  "keywords": [
+    "company"
+  ],
+  "author": "zhoubiao <zhoubiao@mail.chancein.cn>",
+  "homepage": "http://main.vue",
+  "license": "ISC",
+  "main": "main.vue",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robinbiao/dw.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Robinbiao/dw/issues"
+  }
+}
