@@ -1,6 +1,7 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "dw",
+  "version": "0.0.1",
+  "private": false,
   "workspaces": ["packages/*"],
   "devDependencies": {
     "lerna": "^5.1.6"
