@@ -1,2 +1,2 @@
 ** 安装公用包
-yarn workspace lodash
+yarn workspace base lodash
