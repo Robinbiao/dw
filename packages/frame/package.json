@@ -1,6 +1,6 @@
 {
   "name": "@dworld/frame",
-  "version": "0.0.17-alpha.0",
+  "version": "0.0.18-alpha.0",
   "description": "vue base frame ",
   "keywords": [
     "vue",
@@ -33,7 +33,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@dworld/company": "^0.0.17-alpha.0",
+    "@dworld/company": "^0.0.18-alpha.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
