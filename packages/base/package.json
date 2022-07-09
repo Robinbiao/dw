@@ -1,5 +1,5 @@
 {
-  "name": "@robinbiao/base",
+  "name": "@dworld/base",
   "version": "0.0.14-alpha.0",
   "description": "dw web base",
   "keywords": [
@@ -23,7 +23,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "65c4281a7fba6d667117c3cc544fad85671379a8",
+  "gitHead": "b1626c135b4dcfdae0b916399420da037efaa1da",
   "dependencies": {
     "lodash": "^4.17.21"
   }
