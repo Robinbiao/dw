@@ -1,5 +1,5 @@
 {
-  "name": "cli",
+  "name": "@dw/cli",
   "version": "0.0.10-alpha.0",
   "description": "dw web cli",
   "keywords": [
@@ -23,5 +23,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "bec85f3e8a638facde7918c105054cecb3e495d4"
+  "gitHead": "fca7280446114d3c59dfb0f9979c68187b21ebea"
 }
