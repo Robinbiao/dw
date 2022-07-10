@@ -9,7 +9,7 @@
   "author": "zhoubiao <zhoubiao@mail.chancein.cn>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/base.js",
+  "main": "src/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -26,6 +26,7 @@
   },
   "gitHead": "c89f8ea2f68de4943c16fcc8806985ec046a399c",
   "dependencies": {
+    "dui-vue": "^1.0.15",
     "lodash": "^4.17.21"
   }
 }

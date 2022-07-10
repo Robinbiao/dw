@@ -9,6 +9,7 @@
 
 <script>
 import company from "@dworld/company";
+import { isMobile } from "@dworld/base";
 export default {
   name: "HelloWorld",
   components: {
@@ -18,6 +19,9 @@ export default {
   },
   props: {
     msg: String,
+  },
+  created() {
+    console.log(isMobile("13787078709"));
   },
 };
 </script>
