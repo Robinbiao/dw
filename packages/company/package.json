@@ -29,8 +29,6 @@
   "bugs": {
     "url": "https://github.com/Robinbiao/dw/issues"
   },
-  "gitHead": "afd27510d20d2e8c667bd1d081bb710e5c1c70b4",
-  "dependencies": {
-    "core": "^1.0.113"
-  }
+  "gitHead": "3ce1916b61a2ed91e97d4bc63eb101efa58b529d",
+  "dependencies": {}
 }
