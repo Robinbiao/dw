@@ -1,6 +1,6 @@
 {
   "name": "@dworld/cli",
-  "version": "0.0.17-alpha.0",
+  "version": "0.0.17",
   "description": "dw web cli",
   "keywords": [
     "cli",
@@ -24,6 +24,5 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "3ce1916b61a2ed91e97d4bc63eb101efa58b529d",
-  "dependencies": {}
+  "gitHead": "3ce1916b61a2ed91e97d4bc63eb101efa58b529d"
 }
