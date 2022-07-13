@@ -5,6 +5,8 @@ yarn workspace pkgA add pkgB 可以将 pkgB 作为依赖安装到 pkgA 中
 
 yarn workspace @dworld/frame run serve
 
+lerna crate new-package
+
 
 
 ```{
