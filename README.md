@@ -41,3 +41,8 @@ command.bootstrap.ignore：指定不受 bootstrap 命令影响的包
 command.bootstrap.npmClientArgs：指定默认传给 lerna bootstrap 命令的参数
 command.bootstrap.scope：指定那些包会受 lerna bootstrap 命令影响
 packages：指定包所在的目录
+
+
+
+## 注意事项：
+1. 发布到npm上  publishConfig.access="public"
