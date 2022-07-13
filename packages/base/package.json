@@ -24,7 +24,7 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "c89f8ea2f68de4943c16fcc8806985ec046a399c",
+  "gitHead": "f5892f9cb0de33ea5c8a3dfa2c06a0f1bafa375f",
   "dependencies": {
     "dui-vue": "^1.0.15",
     "lodash": "^4.17.21"
