@@ -1,6 +1,6 @@
 {
   "name": "@dworld/company",
-  "version": "0.0.20-alpha.0",
+  "version": "1.0.0",
   "description": "vue company",
   "keywords": [
     "company"
@@ -29,6 +29,5 @@
   "bugs": {
     "url": "https://github.com/Robinbiao/dw/issues"
   },
-  "gitHead": "f3511b6bb9dad00952fb55355569b7335903ab11",
-  "dependencies": {}
+  "gitHead": "f3511b6bb9dad00952fb55355569b7335903ab11"
 }
