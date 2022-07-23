@@ -10,6 +10,9 @@
   "homepage": "http://index",
   "license": "ISC",
   "main": "lib/cli.js",
+  "bin": {
+    "dw": "bin/dw.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,7 +25,10 @@
     "access": "public"
   },
   "scripts": {
+    "cli": "node ./bin/dw.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "gitHead": "5cba2d73dbd151b5229a61a11774af7e42b1e3be"
+  "gitHead": "f3511b6bb9dad00952fb55355569b7335903ab11",
+  "dependencies": {
+  }
 }

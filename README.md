@@ -8,6 +8,8 @@ yarn workspace @dworld/frame run serve
 lerna crate new-package
 
 
+lerna exec --scope=@dworld/cli yarn add validate-npm-package-name 
+
 
 ```{
   "packages": [
@@ -45,4 +47,8 @@ packages：指定包所在的目录
 
 
 ## 注意事项：
-1. 发布到npm上  publishConfig.access="public"
+1. 发布到npm上  publishConfig.access="public";
+2. 不需要发布的包 packages/package.json  private=true.
+3. Expected version "0.6 || 0.8". Got "14.19.1";执行```yarn config set ignore-engines true```.
+4. lerna clean	删除各个包下的node_modules;
+5. 

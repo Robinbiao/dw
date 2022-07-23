@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "workspaces": ["packages/*"],
+  "scripts": {
+    "dev": "lerna exec --scope=@dworld/frame yarn run dev"
+  },
   "devDependencies": {
     "lerna": "^5.1.6"
   }, 

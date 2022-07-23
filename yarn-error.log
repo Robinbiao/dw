@@ -1,0 +1,37 @@
+Arguments: 
+  /Users/apple/.nvm/versions/node/v14.19.1/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/apple/.nvm/versions/node/v14.19.1/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.19.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/apple/workspace/study/dw/node_modules/@babel/core/node_modules/json5'
+
+npm manifest: 
+  {
+    "name": "dw",
+    "version": "0.0.1",
+    "private": true,
+    "workspaces": ["packages/*"],
+    "devDependencies": {
+      "lerna": "^5.1.6"
+    }, 
+    "publishConfig": {
+      "access": "public"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
