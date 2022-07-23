@@ -2,19 +2,20 @@
   <div class="hello">
     123
     <company-page></company-page>
-    <report-module description="暂无研报"></report-module>
-    <wechat-module></wechat-module>
+    <!-- <report-module description="暂无研报"></report-module>
+    <wechat-module></wechat-module> -->
   </div>
 </template>
 
 <script>
 import company from "@dworld/company";
-import { isMobile } from "@dworld/base";
+import { isMobile, a } from "@dworld/base";
+console.log("a=====>" + a);
 export default {
   name: "HelloWorld",
   components: {
     // eslint-disable-next-line vue/no-unused-components
-    wechatModule: window.wechatModule.default,
+    // wechatModule: window.wechatModule.default,
     companyPage: company,
   },
   props: {

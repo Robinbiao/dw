@@ -4,12 +4,13 @@
   "private": true,
   "workspaces": ["packages/*"],
   "scripts": {
-    "dev": "lerna exec --scope=@dworld/frame yarn run dev"
+    "dev": "yarn workspace @dworld/frame run dev"
   },
   "devDependencies": {
     "lerna": "^5.1.6"
-  }, 
+  },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "dependencies": {}
 }
