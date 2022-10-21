@@ -14,19 +14,27 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, mkdir '/Users/apple/workspace/study/dw/node_modules/@babel/core/node_modules/json5'
+  Error: EACCES: permission denied, rmdir '/Users/apple/workspace/study/dw/packages/cli/node_modules/builtins'
 
 npm manifest: 
   {
     "name": "dw",
     "version": "0.0.1",
     "private": true,
-    "workspaces": ["packages/*"],
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+      "dev": "yarn workspace @dworld/frame run dev"
+    },
     "devDependencies": {
       "lerna": "^5.1.6"
-    }, 
+    },
     "publishConfig": {
       "access": "public"
+    },
+    "dependencies": {
+      "vue-router": "3"
     }
   }
 

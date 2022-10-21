@@ -1,5 +1,5 @@
-0 silly argv { _: [ 'clean' ], lernaVersion: '5.2.0', '$0': 'lerna' }
-1 notice cli v5.2.0
+0 silly argv { _: [ 'clean' ], lernaVersion: '5.3.0', '$0': 'lerna' }
+1 notice cli v5.3.0
 2 verbose rootPath /Users/apple/workspace/study/dw
 3 info versioning independent
 4 info Removing the following directories:
@@ -7,6 +7,7 @@
 5 info clean packages/cli/node_modules
 5 info clean packages/company/node_modules
 5 info clean packages/core/node_modules
+5 info clean packages/frame-ts/node_modules
 5 info clean packages/frame/node_modules
 6 info clean removing /Users/apple/workspace/study/dw/packages/base/node_modules
 7 silly rimrafDir /Users/apple/workspace/study/dw/packages/base/node_modules
@@ -16,9 +17,11 @@
 11 silly rimrafDir /Users/apple/workspace/study/dw/packages/company/node_modules
 12 info clean removing /Users/apple/workspace/study/dw/packages/core/node_modules
 13 silly rimrafDir /Users/apple/workspace/study/dw/packages/core/node_modules
-14 info clean removing /Users/apple/workspace/study/dw/packages/frame/node_modules
-15 silly rimrafDir /Users/apple/workspace/study/dw/packages/frame/node_modules
-16 error Error: Command failed with exit code 1: /Users/apple/.nvm/versions/node/v14.19.1/bin/node /Users/apple/workspace/study/dw/node_modules/rimraf/bin.js --no-glob /Users/apple/workspace/study/dw/packages/frame/node_modules/
-16 error     at makeError (/Users/apple/workspace/study/dw/node_modules/execa/lib/error.js:60:11)
-16 error     at handlePromise (/Users/apple/workspace/study/dw/node_modules/execa/index.js:118:26)
-16 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+14 info clean removing /Users/apple/workspace/study/dw/packages/frame-ts/node_modules
+15 silly rimrafDir /Users/apple/workspace/study/dw/packages/frame-ts/node_modules
+16 info clean removing /Users/apple/workspace/study/dw/packages/frame/node_modules
+17 silly rimrafDir /Users/apple/workspace/study/dw/packages/frame/node_modules
+18 error Error: Command failed with exit code 1: /Users/apple/.nvm/versions/node/v14.19.1/bin/node /Users/apple/workspace/study/dw/node_modules/rimraf/bin.js --no-glob /Users/apple/workspace/study/dw/packages/frame/node_modules/
+18 error     at makeError (/Users/apple/workspace/study/dw/node_modules/execa/lib/error.js:60:11)
+18 error     at handlePromise (/Users/apple/workspace/study/dw/node_modules/execa/index.js:118:26)
+18 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)

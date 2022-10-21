@@ -1,0 +1,47 @@
+{
+  // "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    // "target": "esnext",
+    // "module": "esnext",
+    // "strict": true,
+    // "jsx": "preserve",
+    // "moduleResolution": "node",
+    // "experimentalDecorators": true,
+    // "skipLibCheck": true,
+    // "esModuleInterop": true,
+    // "allowSyntheticDefaultImports": true,
+    // "forceConsistentCasingInFileNames": true,
+    // "useDefineForClassFields": true,
+    // "sourceMap": true,
+    // "baseUrl": "./packages",
+    // "types": [
+    //   "webpack-env",
+    //   "jest"
+    // ],
+    "rootDir": "."
+    // "paths": {
+    //   "@/*": [
+    //     "src/*"
+    //   ]
+    // },
+    // "lib": [
+    //   "esnext",
+    //   "dom",
+    //   "dom.iterable",
+    //   "scripthost"
+    // ]
+    // "paths": {
+    //   "@dworld/core": ["core/lib/main.ts"]
+    // },  
+  },
+  // "include": [
+  //   "src/**/*.ts",
+  //   "src/**/*.tsx",
+  //   "src/**/*.vue",
+  //   "tests/**/*.ts",
+  //   "tests/**/*.tsx"
+  // ],
+  "exclude": [
+    "node_modules"
+  ]
+}

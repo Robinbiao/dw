@@ -1,6 +1,10 @@
 ** 安装公用包
 安装到根目录  yarn -W add [package] [--dev] 
-yarn workspace pkgA add pkgB 可以将 pkgB 作为依赖安装到 pkgA 中
+
+
+
+lerna add pkg1 --scope pkg2
+<!-- yarn workspace pkgA add pkgB 可以将 pkgB 作为依赖安装到 pkgA 中 -->
 
 
 yarn workspace @dworld/frame run serve
@@ -44,7 +48,10 @@ command.bootstrap.npmClientArgs：指定默认传给 lerna bootstrap 命令的�
 command.bootstrap.scope：指定那些包会受 lerna bootstrap 命令影响
 packages：指定包所在的目录
 
+## typescipt 模块
 
+1.初始化配置文件   tsc --init.
+2
 
 ## 注意事项：
 1. 发布到npm上  publishConfig.access="public";
